@@ -4,6 +4,9 @@
     https://api.github.com/users/<your name>
 */
 
+const githubUrl = "https://api.github.com/users/pmrprdc"
+
+
 /*
   STEP 2: Inspect and study the data coming back, this is YOUR
     github info! You will need to understand the structure of this
