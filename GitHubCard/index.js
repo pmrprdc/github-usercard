@@ -1,11 +1,18 @@
+const { default: axios } = require("axios");
+
 /*
   STEP 1: using axios, send a GET request to the following URL
     (replacing the placeholder with your Github name):
     https://api.github.com/users/<your name>
 */
+const url1 = `https://api.github.com/users/pmrprdc`
 
-const githubUrl = "https://api.github.com/users/pmrprdc"
+axios.get(url1).then(response => {
+  console.log(response);
+}).catch(err => {
 
+  console.log(err);
+})
 
 /*
   STEP 2: Inspect and study the data coming back, this is YOUR
